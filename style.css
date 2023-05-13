@@ -1,0 +1,261 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=Ubuntu:wght@300&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=Ubuntu:wght@700&display=swap');
+
+
+
+*{
+  
+  list-style-type:none;
+  box-sizing: border-box;
+  text-decoration:none;
+  border:none;
+ 
+  
+}
+
+body{
+  background:#151922;
+  color:white;
+  font-family: 'Averia Serif Libre', cursive;
+font-family: 'Ubuntu', sans-serif;
+margin:0;
+}
+
+.main-header{
+  background:black;
+  display:flex;
+  justify-content:space-between;
+  padding:.5rem 1rem;
+  position:fixed;
+  top:0;
+  right:0;
+  height:80px;
+  z-index:1000;
+  left:0;
+  
+  align-items:center;
+}
+
+.main-header .comp-name img{
+  width:150px;
+  position:absolute;
+  left:0;
+  top:0;
+  height:80px;
+}
+
+.main-header button{
+  background: transparent;
+  border:2px solid white;
+  padding:.1rem 1.5rem;
+  color:white;
+  border-radius:30px;
+  height:50px;
+  font-weight:700;
+  width:100px;
+}
+
+main header .landing-pics{
+  width:90%;
+  display:flex;
+  height:370px;
+  margin-top:6rem;
+  justify-content: center;
+  align-items:center;
+  
+  position:relative;
+  left:1.3rem;
+  border-radius:10px;
+  
+}
+
+.img{
+  width:100%;
+  height:90%;
+  border-radius:10px;
+  box-shadow:0 0 20px 0 rgba(0,0,0,.1);
+ 
+  position: absolute;
+  transition:all 4s;
+  opacity:0;
+
+}
+.img:nth-of-type(1){
+  opacity:1;
+}
+main{
+  position: relative;
+}
+
+main header .free-trial-box{
+  padding:1rem;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  text-align:center;
+  position: relative;
+  align-content:center;
+  bottom:1rem;
+}
+main header .free-trial-box h1{
+  font-size:30px;
+  font-family: 'Averia Serif Libre', cursive;
+font-family: 'Ubuntu', sans-serif;
+}
+main header .free-trial-box p{
+  font-size:20px;
+  position:relative;
+  bottom:2rem;
+  line-height:30px;
+}
+
+main header .free-trial-box button{
+ padding:1rem 1rem;
+ border-radius:30px;
+color:white;
+background:deeppink;
+position:relative;
+margin:0 auto;
+width:250px;
+bottom:1.5rem;
+font-size:20px;
+}
+
+main header .free-trial-box span{
+  color:gray;
+  
+}
+
+main header .free-trial-box .line{
+  width:100%;
+  background:blue;
+  position: absolute;
+  bottom:-20px;
+  left:0;
+  right:0;
+  height:4px;
+  margin-top:1rem;
+  
+}
+
+.dstv{
+  margin:1rem auto;
+  padding:.2rem;
+  text-align:center;
+}
+.dstv h1{
+  font-family: 'Averia Serif Libre', cursive;
+font-family: 'Ubuntu', sans-serif;
+font-size:30px;
+}
+
+.dstv button{
+  padding:.7rem 1.5rem;
+  
+  border-radius:30px;
+  color:white;
+  background: #00bfff;
+  border: none;
+  font-size:21px;
+  width:200px;
+  display:flex;
+  align-items:center;
+  margin:auto;
+  justify-content:space-between;
+}
+.dstv button span:nth-of-type(1){
+  font-size:30px;
+  font-weight:700;
+}
+.dstv button span:nth-of-type(2){
+  font-weight:700;
+}
+.dstv p{
+  font-size:20px;
+  font-weight:500;
+}
+.movie-block{
+  
+  
+  margin-top:1rem;
+  
+  
+}
+
+.movie-block img{
+  width:100%;
+  
+}
+
+.faq{
+  background:white;
+  color:black;
+  padding:.5rem 0;
+  padding-bottom:5rem;
+  
+}
+
+.faq h1{
+font-family: 'Averia Serif Libre', cursive;
+font-family: 'Ubuntu', sans-serif;
+font-size:30px;
+text-align:center;
+margin-top:2rem;
+}
+
+.faq .faq-items{
+  
+  border-bottom:.5px solid gray;
+  position:relative;
+  padding:2rem .5rem;
+  
+  overflow:hidden;
+  height:110px;
+  transition:all 1s;
+  line-height:30px;
+  
+}
+.faq-items.active{
+  height:300px;
+}
+
+
+.faq-items div{
+  
+  margin-top:2.5rem;
+ 
+}
+
+.faq i{
+font-size:14px;
+position: absolute;
+right:10px;
+top:40px;
+}
+
+footer{
+  background:black;
+  padding:1rem .5rem;
+}
+
+footer .line{
+  width:350px;
+  height:.3px;
+  background: gray;
+  margin:1rem auto;
+}
+
+footer nav ul li{
+  margin:1.4rem 0;
+}
+
+footer nav ul li a{
+  color: white;
+  
+}
+
+footer span{
+  color:gray;
+}
